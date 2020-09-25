@@ -1,0 +1,157 @@
+
+/*navbar*/
+.navbar-brand { /*Logo centralizada*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    width:100%;
+    font-weight: 500;
+  }
+  .navbar-brand a{
+      text-decoration: none;
+      color: white;
+      text-shadow: .1em .1em .9em black;
+      text-transform: uppercase;
+  }
+.navbar {  
+    background: rgba(0, 0, 0, .6) !important;      
+}
+/*carousel*/
+.carousel-item{
+    min-height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+}
+.carousel-caption h1{
+    font-size: 3.5rem;
+    font-weight: 650;
+    letter-spacing: .3rem;
+    text-shadow: .1em .1em .8em black;
+}
+.carousel-caption h3{
+    font-size: 1.2rem;
+}
+
+/*Conteúdo*/
+.titulo {
+    justify-content:center;
+    height:50px;
+    width:100%;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 417px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: .1em .1em .8em black;
+}
+
+.text-muted {
+    font-size: 16px;
+}
+
+/*Página 1*/
+.parallax-img {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade1.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img1 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Página 2*/
+.parallax-img2 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade3.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img3 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade7.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Página 3*/
+.parallax-img4 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade4.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img5 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade8.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Página 4*/
+.parallax-img6 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade5.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img7 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade9.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Página 5*/
+.parallax-img8 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade6.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img9 {
+    width: 100%;
+    height: 940px;
+    background-image: url('../img/sustentabilidade10.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Conteúdo*/
+.faixa {
+    width: 100%;
+    background-color: #1c1c1c;  
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+.lista-faixa {
+    text-align: start!important;
+    margin-left: 30%;
+}
+
+.paginas button{
+    margin: 0 20px 10px 20px;
+}    
+/*conteudo formulario*/
+.container{
+    background: rgba(0, 0, 0, .7) !important;
+}
